@@ -1,0 +1,15 @@
+/*About Page*/
+.about-page{
+    padding-top: 44px;
+}
+.about-page .row{
+    margin-bottom: 60px;
+}
+.about-img{
+    -webkit-box-shadow: -13px 13px 0px 0px rgba(230,230,230,1);
+    -moz-box-shadow: -13px 13px 0px 0px rgba(230,230,230,1);
+    box-shadow: -13px 13px 0px 0px rgba(230,230,230,1);
+}
+.about-txt{
+    font-size: 13px;
+}

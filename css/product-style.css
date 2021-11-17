@@ -1,0 +1,114 @@
+/* Product page */
+.product-page{
+    margin-bottom: 60px;
+}
+.product-page .list-product{
+    gap: 0 20px;
+    margin-bottom: 40px;
+}
+.product-page .product-price{
+    margin-bottom: 0;
+}
+.product-page .product{
+    max-width: 30%;
+    padding: 0;
+}
+.aside-title{
+    padding-bottom: 35px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.filter-box .h5 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.filter-box .h5 i {
+    display: block;
+    margin-left: auto;
+}
+.filter-list{
+    position: relative;
+    max-height: 210px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #E6E6E6;
+}
+.filter-list:last-child{
+    margin-bottom: 0;
+}
+.filter-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.filter-item label{
+    margin-bottom: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.filter-item label:hover{
+    color: #757575;
+}
+.filter-color input[type=checkbox]{
+    position: relative;
+    margin-left: 2px;
+}
+.filter-color input[type=checkbox]:before{
+    content: '';
+    display: block;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -3px;
+    left: -2px;
+}
+.filter-color input[type=checkbox]:after{
+    content: '';
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    top: -4.5px;
+    left: -4px;
+    display: none;
+    border: 1px solid orange;
+}
+.filter-color input[type=checkbox]:checked:after{
+    display: block;
+}
+#White:before{
+    border: 1px solid #000;
+}
+#Black:before{
+    background: #000;
+}
+#Red:before{
+    background: red;
+}
+#Pink:before{
+    background: pink;
+}
+#Green:before{
+    background: greenyellow;}
+#Yellow:before{
+    background: yellow;}
+
+.view-more{
+    margin-top: 60px;
+    text-align: center;
+}
+.btn-more{
+    border-radius: 30px;
+    background: #E6E6E6;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+}
+.btn-more:hover{
+    background: #333;
+    color: #E6E6E6;
+}
